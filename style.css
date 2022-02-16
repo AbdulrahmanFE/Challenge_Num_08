@@ -27,7 +27,7 @@
   }
 /* Styling The Container */
   .container {
-    margin: 75px auto 40px;
+    margin: 75px auto 0;
     display: flex;
     flex-direction: column;
   }
@@ -56,7 +56,7 @@
     color: var(--GrayishBlue);
     width: 500px;
     max-width: 100%;
-    margin: 10px auto 0;
+    margin: 15px auto 0;
     font-weight: 400;
     line-height: 24px;
   }
@@ -95,13 +95,13 @@
   }
   .card {
     background-color: white;
-    padding: 30px;
+    padding: 25px 30px 35px;
     border-radius: 5px;
     border-top: 4px solid transparent;
     height: 245px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 25px;
     -moz-box-shadow: 2px 8px 14px 0 rgb(160 167 202 / 60%);
     -webkit-box-shadow: 2px 8px 14px 0 rgb(160 167 202 / 60%);
     box-shadow: 2px 8px 14px 0 rgb(160 167 202 / 60%);
@@ -147,7 +147,7 @@
   .info > p {
     color: var(--GrayishBlue);
     line-height: 24px;
-    padding: 10px 0;
+    padding: 9px 0;
     font-size: 0.8rem;
   }
   .card > img {
